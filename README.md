@@ -1,16 +1,28 @@
-## Hi there 👋
+### Wesley Adriano Silva Sena
 
-<!--
-**PapaiW/PapaiW** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Desenvolvedor .NET focado em arquitetura limpa e regras de domínio bem definidas. Construo
+software financeiro onde precisão e rastreabilidade de decisão importam mais que velocidade de
+entrega.
 
-Here are some ideas to get you started:
+#### Projeto em destaque — Sistema Financeiro Pessoal (v1.0.0)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Sistema financeiro pessoal completo, desktop (Windows), cobrindo:
+
+- Contas, orçamentos, metas e calendário financeiro
+- Folha CLT (mensal, 13º, férias, rescisão, adicionais, banco de horas)
+- Investimentos (posição, rentabilidade, patrimônio)
+- Importação de extrato OFX com deduplicação automática
+- Backup/restauração com verificação de integridade
+- Trilha de auditoria para toda mutação de dado financeiro
+
+**Stack:** C# · .NET 9 · Avalonia UI · SQLite/EF Core · CommunityToolkit.Mvvm
+
+**Arquitetura:** Clean Architecture (Domain/Application/Infrastructure/Presentation), Bounded
+Contexts isolados por módulo, toda decisão relevante registrada em ADR antes de virar código —
+31 ADRs até a v1.0. Auditoria de segurança e hardening completos antes da publicação.
+
+Repositório privado (produto comercial) — acesso sob demanda.
+
+---
+
+📫 Contato: [weslleyadriano2021@gmail.com](mailto:weslleyadriano2021@gmail.com)
